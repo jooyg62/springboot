@@ -10,7 +10,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>springboot-mysite</artifactId>
+	<artifactId>springboot-jblog</artifactId>
 	
 	<properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -82,7 +82,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8080/manager/text</url>
-					<path>/mysite5</path>
+					<path>/jblog5</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
@@ -90,8 +90,3 @@
 		</plugins>
 	</build>
 </project>
-
-
-
-
-
