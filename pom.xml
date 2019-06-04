@@ -26,9 +26,9 @@
   		</plugin>
   	</plugins>
   </build>
+  
   <modules>
   	<module>springboot-springex</module>
   	<module>springboot-mysite</module>
-  	<module>springboot-jblog</module>
   </modules>
 </project>
