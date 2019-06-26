@@ -46,4 +46,10 @@ public class GuestbookController {
 		return "redirect:/guestbook";
 	}
 	
+	@RequestMapping(value="/timeline", method=RequestMethod.GET)
+	public String timeline() {
+		
+		return "guestbook/index-timeline";
+	}
+	
 }
